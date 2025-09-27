@@ -1,0 +1,86 @@
+*{
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.navbar_text{
+  color: #8b5e3c;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://giffiles.alphacoders.com/307/30784.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#hometext {
+  color: white;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.heading{
+  color: #8B5E3C;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.title {
+  color: #8B5E3C;
+  font-weight: 600;
+  font-size: .70rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h2{
+  font-size: 1rem;
+  font-weight: 300;
+}
+          
+.photo, 
+.photo2{ 
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  align-self: center;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.photo2 {
+  width: 80%;
+  height: 350px;
+  object-fit:contain;
+}
+
+.photo:hover,
+.photo2:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.stars .bx { 
+  color: #8B5E3C 
+}
+
+.fa-light svg{
+  width: 70%;
+  height: 70%;
+}
+
+.cart_font:hover{
+  background-color: antiquewhite;
+
+}
+
